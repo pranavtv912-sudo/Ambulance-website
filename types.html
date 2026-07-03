@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ambulance Types &amp; Fleet Configurations | Sri Manju Ambulance Service</title>
+  <meta name="description" content="View layout specifications, stretcher styles, medical equipment inventory, and seating capacity for Sri Manju Ambulance fleet configurations in Hyderabad." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+<body>
+
+  <!-- UTILITY HEADER -->
+  <div class="utility-header">
+    <div class="container">
+      <div class="util-left">
+        <div class="util-item">
+          <i class="fas fa-phone-volume"></i>
+          <a href="tel:+917013512755">7013512755</a>
+        </div>
+        <div class="util-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:srimanjuambulancesservice255@gmail.com">srimanjuambulancesservice255@gmail.com</a>
+        </div>
+        <div class="util-item">
+          <span class="util-badge"><i class="fas fa-globe" style="margin-right:4px;"></i> 24/7 All India Service Available</span>
+        </div>
+      </div>
+      <div class="util-right">
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/917013512755" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION -->
+  <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="15" y="5" width="10" height="30" rx="2" fill="#E63946"/>
+            <rect x="5" y="15" width="30" height="10" rx="2" fill="#E63946"/>
+            <polyline points="3,20 8,20 11,14 14,26 18,20 22,20 25,12 28,28 31,20 37,20" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="brand">Sri Manju</span>
+          <span class="tagline">Ambulance Service</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li class="dropdown">
+          <span class="active" tabindex="0">Ambulance Types <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i></span>
+          <ul class="dropdown-menu">
+            <li><a href="types.html#bls"><i class="fas fa-ambulance"></i> BLS Ambulance</a></li>
+            <li><a href="types.html#cardiac"><i class="fas fa-heartbeat"></i> Cardiac ICU Ambulance</a></li>
+            <li><a href="types.html#oxygen"><i class="fas fa-lungs"></i> Oxygen Support</a></li>
+            <li><a href="types.html#neonatal"><i class="fas fa-baby"></i> Neonatal Transport</a></li>
+            <li><a href="types.html#outstation"><i class="fas fa-road"></i> Outstation Transport</a></li>
+            <li><a href="types.html#freezer"><i class="fas fa-snowflake"></i> Freezer Box Services</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:+917013512755" class="nav-call-btn" id="nav-call-btn">
+          <i class="fas fa-phone-alt"></i> Call 7013512755
+        </a>
+        <button class="hamburger" aria-label="Open Menu" id="hamburger">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <button class="close-btn" aria-label="Close Menu"><i class="fas fa-times"></i></button>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <span class="mob-item mob-dropdown-trigger">Ambulance Types <i class="fas fa-chevron-down" style="margin-left:8px;font-size:0.8rem;"></i></span>
+    <div class="mob-sub" style="display:none;">
+      <a href="types.html#bls">BLS Ambulance</a>
+      <a href="types.html#cardiac">Cardiac ICU Ambulance</a>
+      <a href="types.html#oxygen">Oxygen Support</a>
+      <a href="types.html#neonatal">Neonatal Transport</a>
+      <a href="types.html#outstation">Outstation Transport</a>
+      <a href="types.html#freezer">Freezer Box Services</a>
+    </div>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="tel:+917013512755" class="mobile-call-btn"><i class="fas fa-phone-alt"></i> Emergency Call: 7013512755</a>
+  </div>
+
+  <!-- HERO BANNER -->
+  <section class="hero-banner">
+    <div class="container">
+      <span class="section-tag" style="margin-bottom:16px;display:inline-block;">Our Fleet</span>
+      <h1 data-animate="fadeInUp">Ambulance <span style="color:var(--red);">Types &amp; Configurations</span></h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span class="current">Ambulance Types</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- FLEET SECTION -->
+  <section class="section-pad fleet-section">
+    <div class="container">
+      <div class="fleet-list">
+        
+        <!-- Fleet Item 1: BLS -->
+        <div class="fleet-item" id="bls">
+          <div class="fleet-img">
+            <img src="images/eeco-front.jpg" alt="Basic Life Support Ambulance Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge">BLS Ambulance</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Basic Life Support (BLS) Vehicle</h3>
+            <p class="fleet-desc">
+              Structured to transport stable patients who do not require intensive clinical support during travel but need monitoring, professional lifting assistance, or essential medical supervision.
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">Stretcher Type</div>
+                <div class="spec-value">Auto-Loading Foldable Stretcher</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Seating Capacity</div>
+                <div class="spec-value">1 Patient + 2 Attendants</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Oxygen System</div>
+                <div class="spec-value">1x 10L Oxygen Cylinder</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Sanitization</div>
+                <div class="spec-value">Standard Sanitization Protocol</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Medical Inventory:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Sphygmomanometer</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Pulse Oximeter</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> First Aid Trauma Kit</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> IV Stand &amp; Hooks</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Vehicle Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Item 2: Cardiac ICU -->
+        <div class="fleet-item" id="cardiac">
+          <div class="fleet-img">
+            <img src="images/traveller-icu-front.jpg" alt="Cardiac ICU Advanced Ambulance Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge" style="background: var(--navy);">Cardiac ICU Care</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Cardiac ICU / Ventilator Vehicle</h3>
+            <p class="fleet-desc">
+              Equipped as a fully functional mobile ICU unit to support critical cardiac, respiratory, or multi-organ failure patients. Highly trained critical care crew members monitor the patient during transit.
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">ICU Equipment</div>
+                <div class="spec-value">Critical ICU Ventilator &amp; Oxygen</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Cabin Configuration</div>
+                <div class="spec-value">A/c &amp; Non-A/c Available</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Patient Monitor</div>
+                <div class="spec-value">Multi-channel Cardiac Monitor</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Power System</div>
+                <div class="spec-value">Continuous Power Inverter Backup</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Medical Inventory:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Defibrillator / AED</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Infusion / Syringe Pumps</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Intubation Laryngoscope Kit</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Electric Suction Apparatus</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Emergency Resuscitator (Ambu)</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Vehicle Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Item 3: Oxygen Support -->
+        <div class="fleet-item" id="oxygen">
+          <div class="fleet-img">
+            <img src="images/traveller-als-side.jpg" alt="Oxygen Support Ambulance Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge">Oxygen Support Care</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Oxygen Support Ambulance</h3>
+            <p class="fleet-desc">
+              Specifically structured for patients who suffer from chronic respiratory illnesses, COPD, or recovery phases where continuous oxygen administration is critical to prevent hypoxemia during transit.
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">Primary Oxygen</div>
+                <div class="spec-value">Continuous Flow Oxygen Setup</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Cabin Configuration</div>
+                <div class="spec-value">A/c &amp; Non-A/c Available</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Seating Capacity</div>
+                <div class="spec-value">1 Patient + 3 Attendants</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Monitors</div>
+                <div class="spec-value">Pulse Oximeter &amp; BP Monitor</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Medical Inventory:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Continuous Flow Meters</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Nebulizer Machine</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Disposable Humidifiers</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Emergency First Aid Kit</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Vehicle Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Item 4: Neonatal Transport -->
+        <div class="fleet-item" id="neonatal">
+          <div class="fleet-img">
+            <img src="images/interior-traveller.jpg" alt="Neonatal Support Ambulance Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge" style="background: var(--navy);">Neonatal Care</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Neonatal / Incubator Transport Vehicle</h3>
+            <p class="fleet-desc">
+              Designed specifically for critical newborns and premature infants requiring absolute temperature control, ventilation, and gentle shifting under the care of specialized neonatal pediatric nurses.
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">Incubator Type</div>
+                <div class="spec-value">Transport Incubator Unit</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Ventilator</div>
+                <div class="spec-value">Pediatric/Neonatal Ventilator</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Temp Control</div>
+                <div class="spec-value">Servo-Controlled Heating Canopy</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Power Support</div>
+                <div class="spec-value">Isolated Power Unit System</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Medical Inventory:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Micro-infusion syringe pumps</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Neonatal BP cuffs &amp; sensors</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Pediatric airway management kit</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Isolated incubator suspension</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Vehicle Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Item 5: Outstation -->
+        <div class="fleet-item" id="outstation">
+          <div class="fleet-img">
+            <img src="images/traveller-hero.jpg" alt="Outstation interstate Ambulance Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge">Interstate Outstation</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Outstation / Interstate Medical Transit Vehicle</h3>
+            <p class="fleet-desc">
+              Optimized for long-distance journeys across state lines with robust climate control systems, double drivers to prevent fatigue, and extensive medical inventory reserves (backup oxygen tanks, double battery systems).
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">Backup Oxygen</div>
+                <div class="spec-value">Dual Jumbo Cylinders Setup</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Crew Setup</div>
+                <div class="spec-value">2 Experienced Drivers + 1 Paramedic</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Interior HVAC</div>
+                <div class="spec-value">Climate Controlled Cabin</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Comfort Seating</div>
+                <div class="spec-value">Reclining Attendant Chairs</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Medical Inventory:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Emergency Backup Battery</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Advanced First Aid Chest</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Patient Restraint Harness</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Portable Oxygen Kit</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Vehicle Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fleet Item 6: Freezer Box Services -->
+        <div class="fleet-item" id="freezer">
+          <div class="fleet-img">
+            <img src="images/traveller-als-side.jpg" alt="Mortuary Freezer Box Services Configuration" loading="lazy">
+            <div class="fleet-img-overlay"></div>
+            <span class="fleet-img-badge" style="background: var(--red);">Mortuary Freezer Box</span>
+          </div>
+          <div class="fleet-body">
+            <h3>Mortuary Freezer Box Services</h3>
+            <p class="fleet-desc">
+              Designed to preserve deceased loved ones under precise temperature regulation. Operating 24/7 with professional and compassionate crew handling all transportation and setups.
+            </p>
+            <div class="fleet-specs">
+              <div class="spec-item">
+                <div class="spec-label">Cabinet System</div>
+                <div class="spec-value">Hygienic Digital Freezer Box</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Temp Control</div>
+                <div class="spec-value">Constant Temperature Display</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Power Options</div>
+                <div class="spec-value">In-Vehicle &amp; Domestic Plug-in</div>
+              </div>
+              <div class="spec-item">
+                <div class="spec-label">Service Area</div>
+                <div class="spec-value">Local &amp; All India Outstation</div>
+              </div>
+            </div>
+            <div class="fleet-equipment">
+              <h5>Service Inclusions:</h5>
+              <div class="equip-tags">
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Clean, Sanitized Steel Trays</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Professional Shifting Handles</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Dual Power Inverters</span>
+                <span class="equip-tag"><i class="fas fa-check-circle"></i> Compassionate Ground Staff</span>
+              </div>
+            </div>
+            <div>
+              <a href="tel:+917013512755" class="btn btn-red"><i class="fas fa-phone-alt"></i> Book Freezer Box Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EMERGENCY CTA BANNER -->
+  <section class="emergency-cta">
+    <div class="container">
+      <div class="text-block" data-animate="slideInLeft">
+        <h2>Need Immediate Medical Transport?</h2>
+        <p>Our 24/7 dispatch desk is ready. Don't wait — every second is critical.</p>
+      </div>
+      <div class="cta-actions" data-animate="slideInRight">
+        <div class="cta-phone-block">
+          <div class="cta-label">Emergency Hotline</div>
+          <a href="tel:+917013512755" id="cta-main-call"><i class="fas fa-phone-volume"></i> 7013512755</a>
+        </div>
+        <a href="https://wa.me/917013512755" target="_blank" class="btn btn-white btn-lg" id="cta-whatsapp">
+          <i class="fab fa-whatsapp" style="color:var(--green);"></i> WhatsApp Us
+        </a>
+        <a href="contact.html" class="btn btn-white btn-lg" id="cta-contact-form">
+          <i class="fas fa-clipboard-list"></i> Send Query
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="5" width="10" height="30" rx="2" fill="#E63946"/>
+                <rect x="5" y="15" width="30" height="10" rx="2" fill="#E63946"/>
+                <polyline points="3,20 8,20 11,14 14,26 18,20 22,20 25,12 28,28 31,20 37,20" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span style="font-size:0.82rem;font-weight:800;color:white;letter-spacing:1.5px;text-transform:uppercase;display:block;">Sri Manju</span>
+              <span style="font-size:0.65rem;color:rgba(255,255,255,0.5);letter-spacing:1px;">Ambulance Service</span>
+            </div>
+          </div>
+          <p>Providing premium 24/7 emergency medical transport across Hyderabad.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/917013512755" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="types.html">Ambulance Types</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services.html#bls">BLS Ambulance</a></li>
+            <li><a href="services.html#cardiac">Cardiac ICU Ambulance</a></li>
+            <li><a href="services.html#oxygen">Oxygen Support</a></li>
+            <li><a href="services.html#shifting">Patient Shifting</a></li>
+            <li><a href="services.html#outstation">Outstation Transport</a></li>
+            <li><a href="services.html#neonatal">Neonatal Care</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Emergency Contact</h4>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info"><strong>Primary Hub</strong><span>Panjagutta, Hyderabad, Telangana</span></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="info"><strong>Email Us</strong><a href="mailto:srimanjuambulancesservice255@gmail.com">srimanjuambulancesservice255@gmail.com</a></div>
+          </div>
+          <div class="footer-hotline">
+            <span class="badge">24/7 HOTLINE</span>
+            <a href="tel:+917013512755"><i class="fas fa-phone-volume"></i> 7013512755</a>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <p>&copy; 2026 Sri Manju Ambulance Service. All Rights Reserved.</p>
+        <div class="sub-footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/917013512755" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <span class="tooltip">Chat on WhatsApp</span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+    </svg>
+  </a>
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
